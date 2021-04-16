@@ -1,6 +1,6 @@
 # Flutter Mapbox GL
 
-> **Please note that this project is community driven and is not an official Mapbox product.** We welcome [feedback](https://github.com/tobrun/flutter-mapbox-gl/issues) and contributions.
+> **Please note that this project is community driven and is not an official Mapbox product.** We welcome [feedback](https://github.com/meman94/flutter-mapbox-gl/issues) and contributions.
 
 This Flutter plugin allows to show embedded interactive and customizable vector maps inside a Flutter widget. For the Android and iOS integration, we use [mapbox-gl-native](https://github.com/mapbox/mapbox-gl-native). For web, we rely on [mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js). This project only supports a subset of the API exposed by these libraries. 
 
@@ -9,7 +9,7 @@ This Flutter plugin allows to show embedded interactive and customizable vector 
 ## Running the example app
 
 - Install [Flutter](https://flutter.io/get-started/) and validate its installation with `flutter doctor`
-- Clone the repository with `git clone git@github.com:tobrun/flutter-mapbox-gl.git`
+- Clone the repository with `git clone git@github.com:meman94/flutter-mapbox-gl.git`
 - Add a Mapbox access token to the example app (see next section)
 - Connect a mobile device or start an emulator, simulator or chrome
 - Locate the id of a the device with `flutter devices`
@@ -23,7 +23,7 @@ This project uses Mapbox vector tiles, which requires a Mapbox account and a Map
 
 The **recommended** way to provide your access token is through the `MapboxMap` constructor's `accessToken` parameter, which is available starting from the v0.8 release. Note that you should always use the same token throughout your entire app.
 
-An alternative method to provide access tokens that was required until the v0.7 release is described in [this wiki article](https://github.com/tobrun/flutter-mapbox-gl/wiki/Mapbox-access-tokens).
+An alternative method to provide access tokens that was required until the v0.7 release is described in [this wiki article](https://github.com/meman94/flutter-mapbox-gl/wiki/Mapbox-access-tokens).
 
 ## Using the SDK in your project
 
@@ -96,10 +96,10 @@ This README file currently houses all of the documentation for this Flutter proj
 ## Getting Help
 
 - **Need help with your code?**: Look for previous questions on the [#mapbox tag](https://stackoverflow.com/questions/tagged/mapbox+flutter) — or [ask a new question](https://stackoverflow.com/questions/tagged/mapbox+android).
-- **Have a bug to report?** [Open an issue](https://github.com/tobrun/flutter-mapbox-gl/issues/new). If possible, include a full log and information which shows the issue.
-- **Have a feature request?** [Open an issue](https://github.com/tobrun/flutter-mapbox-gl/issues/new). Tell us what the feature should do and why you want the feature.
+- **Have a bug to report?** [Open an issue](https://github.com/meman94/flutter-mapbox-gl/issues/new). If possible, include a full log and information which shows the issue.
+- **Have a feature request?** [Open an issue](https://github.com/meman94/flutter-mapbox-gl/issues/new). Tell us what the feature should do and why you want the feature.
 
 
 ## Contributing
 
-We welcome contributions to this repository! If you're interested in helping build this Mapbox/Flutter integration, please read [the contribution guide](https://github.com/tobrun/flutter-mapbox-gl/blob/master/CONTRIBUTING.md) to learn how to get started.
+We welcome contributions to this repository! If you're interested in helping build this Mapbox/Flutter integration, please read [the contribution guide](https://github.com/meman94/flutter-mapbox-gl/blob/master/CONTRIBUTING.md) to learn how to get started.
